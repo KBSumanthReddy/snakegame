@@ -1,0 +1,25 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url('snake.jpeg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.board {
+    margin-left: 25vw;
+    display: inline-block;
+    height: 95vh;
+    width: 50vw;
+    background-color: blue;
+    border-style:solid;
+    border-color: black;
+}
+.score {
+    display: inline-block;
+    height: 8vh;
+    width: 10vw;
+    margin:  0vh 5vw;
+    font-size: 25px;
+    background-color: green;
+    position: absolute;
+}
