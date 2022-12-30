@@ -116,6 +116,6 @@ document.onkeydown = function (event) {
           dir.y = 0;
           break;
     }
-    window.setInterval(move,100);
+    window.setInterval(move,170);
 }
 
